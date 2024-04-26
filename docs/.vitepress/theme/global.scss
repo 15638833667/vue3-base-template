@@ -1,0 +1,82 @@
+
+:root {
+  --vp-nav-height: 60px
+}
+
+.Layout {
+  .VPNav {
+    .VPNavBar {
+      // border-bottom: 1px solid var(--vp-c-gutter);
+      .wrapper {
+        .container {
+          max-width: 100%;
+        }
+      }
+      &.has-sidebar {
+        .wrapper {
+          .container {
+            .title {
+              padding-left: 0;
+              width: 240px;
+              padding-right: 0;
+              .VPNavBarTitle {
+                .title {
+                  padding-left: 10px;
+                }
+              }
+            }
+            .content {
+              box-sizing: border-box;
+              padding-left: 240px;
+              padding-right: 20px;
+              border-bottom: 1px solid var(--vp-c-divider);
+              .content-body {
+                height: 100%;
+              }
+            }
+          }
+        }
+        .divider {
+          width: 0;
+        }
+      }
+    }
+  }
+  .VPContent {
+    .VPHome {
+      .container {
+        max-width: 100%;
+      }
+      .name {
+        max-width: 700px;
+      }
+    }
+    &.has-sidebar {
+      padding-left: 240px;
+      padding-right: 0;
+      .VPDoc {
+        padding: 10px;
+        .aside {
+          padding-left: 15px;
+        }
+        .container {
+          .content {
+            padding: 20px;
+            padding-top: 0;
+            .content-container {
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .VPFooter {
+    padding: 15px;
+  }
+  .VPSidebar {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 240px;
+  }
+}

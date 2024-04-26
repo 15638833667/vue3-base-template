@@ -2,13 +2,13 @@
 <template>
   <HelloWorld msg="Vite + Vue" />
 
-  <Button type="primary" @click="console.log('Hello')">Hello</Button>
+  <MsButton type="primary" @click="console.log('Hello')">Hello</MsButton>
   
 </template>
 
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import { Button } from '../packages'
+import { MsButton } from '../packages'
 </script>
 
 <style lang="scss">

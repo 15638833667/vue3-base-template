@@ -2,11 +2,11 @@ import '../styles/index.scss'
 
 import type { App } from 'vue'
 
-import Button from './button'
+import MsButton from './msButton'
 
 // 所有组件列表
 const components = [
-  Button
+  MsButton
 ]
 
 // 定义 install 方法
@@ -29,7 +29,7 @@ const install = (app: App): void => {
 // console.log('exportComponents', exportComponents)
 
 export {
-  Button
+  MsButton
 }
 
 export default {

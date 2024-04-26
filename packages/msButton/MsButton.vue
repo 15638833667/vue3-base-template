@@ -22,6 +22,8 @@ const props = withDefaults(defineProps<Props>(), {
 })
 const emit = defineEmits(['click'])
 
+console.log('props', props)
+
 function onClick (e: Event) {
   emit('click', e)
 }
