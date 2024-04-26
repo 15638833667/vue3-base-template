@@ -1,0 +1,108 @@
+/**
+  * ms-ui global theme setting.
+  * Now we will have two version about theme. one is light. one is dark. 
+  * if you want more. you can click link to visit UI.
+  * https://lanhuapp.com/web/#/item/project/detailDetach?pid=e5cba4c9-b9c6-425b-83cf-1cf46cb8e821&project_id=e5cba4c9-b9c6-425b-83cf-1cf46cb8e821&image_id=2ec2cc63-d194-467d-ac0c-c30617bf12cb&fromEditor=true
+  *
+  * For better performance do not dynamically change the root variable if you really do not need that, 
+  * since this could introduce recalculation overhead for rendering.
+  * https://lisilinhart.info/posts/css-variables-performance/
+**/
+
+.light-theme {
+  --ms-data-bad-color: #adb7c3;
+
+  color-scheme: light;
+
+  --ms-primary-normal-color: #5b8bff;
+  --ms-primary-hover-color: #8ba5f2;
+  --ms-primary-select-color: #2f63ff;
+
+  --ms-danger-normal-color: #e55651;
+  --ms-danger-hover-color: #f16864;
+  --ms-danger-select-color: #d54742;
+
+  --ms-alert-normal-color: #f3993e;
+  --ms-alert-hover-color: #ffad5b;
+  --ms-alert-select-color: #d77b1f;
+
+  --ms-success-normal-color: #46b756;
+  --ms-success-hover-color: #69ca77;
+  --ms-success-select-color: #4aa858;
+
+  --ms-plain-normal-color: #ffffff;
+  --ms-plain-hover-color: #f3f5fa;
+  --ms-plain-select-color: #e1e6f0;
+
+  --ms-f1-color: #23272c;
+  --ms-f2-color: #747d8a;
+  --ms-f3-color: #adb7c3;
+  --ms-f4-color: #fff;
+  --ms-f5-color: #23272c;
+  --ms-f6-color: #adb7c3;
+  --ms-f7-color: #23272c;
+
+  --ms-global-background-color: #f9f9f9;
+  --ms-card-background-color: #f8fafd;
+  --ms-card-background2-color: #bcc6d0;
+  --ms-card-background3-color: #bcc6d0;
+  --ms-card-background4-color: #e7ebf4;
+  --ms-card-background5-color: #fff;
+
+  --ms-global-background-color-1: #ffffff;
+  --ms-global-background-color-2: #f3f5fa;
+  --ms-global-background-color-3: #e2e6f0;
+  --ms-global-background-color-4: #ffffff;
+  --ms-global-background-color-5: #dbe3f8;
+  --ms-radar-background-color: #fff;
+
+  --ms-card-border-color: #e8edf6;
+  --ms-card-border-color-1: #cfd3db;
+  --ms-card-border-color-2: #eaeff7;
+
+  --ms-help2-color: #fff;
+  --ms-help1-color: #f3f5fa;
+  --ms-help3-color: #ffffff;
+  --ms-help4-color: #e8edf6;
+
+  --ms-line-color: #cfd3db;
+  --ms-line2-color: #e8edf6;
+  --ms-line3-color: #eaeff7;
+  --ms-line4-color: #d2d8e5;
+
+  --ms-forbidden-background-color: #e6e6e6;
+  --ms-forbidden-line-color: #e2e3e6;
+  --ms-forbidden-font-color: #d2d8df;
+
+  --ms-error-color: #ad3f51;
+  --ms-heavy-color: #e55651;
+  --ms-middle-color: #f3993e;
+  --ms-light-color: #f1c948;
+  --ms-exception-color: #adb7c3;
+
+  --ms-heavy-background-color: rgba(229, 86, 81, 0.2);
+  --ms-middle-background-color: rgba(243, 153, 62, 0.2);
+  --ms-light-background-color: rgba(241, 201, 72, 0.2);
+
+  --ms-success-background-color: rgba(70, 183, 86, 0.2);
+  --ms-primary-alert-color: rgba(91, 139, 255, 0.2);
+
+  --ms-loading-background-color: rgba(255, 255, 255, 0.3);
+
+  --ms-gradient-color1: #ecf0f9;
+  --ms-gradient-color2: #ffffff;
+  --ms-gradient-color3: #e5ebfb;
+  --ms-gradient-color4: #ffffff;
+
+  --ms-shadow-color: rgba(255, 255, 255, 0.5);
+
+  --ms-map-normal-color: #f2f4f7;
+  --ms-map-hover-color: #e1e9f4;
+  --ms-map-active-color: #dce4f0;
+  --ms-map-active-border-color: #cfd3db;
+  --ms-scrollbar-background-normal: #edf0f8;
+  --ms-scrollbar-background-thumb: #cbd4e6;
+  --ms-scrollbar-background-hover: #cbd4e6;
+
+  --ms-tooltip-formatter-border: transparent;
+}

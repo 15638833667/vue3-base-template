@@ -1,0 +1,18 @@
+// 组件库全局样式定义
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei,MicrosoftYaHei,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,SimSun,sans-serif;
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--ms-f1-color);
+  background: var(--ms-global-background-color);
+  font-size: 14px;
+}
